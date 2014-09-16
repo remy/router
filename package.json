@@ -1,5 +1,5 @@
 {
- "name":"router",
+ "name":"router-stupid",
  "version":"0.7.0",
  "description":"Simple http router forked from npm@router",
  "keywords":["connect","middleware","router","route","http"],
