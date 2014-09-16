@@ -1,12 +1,15 @@
 {
  "name":"router",
- "version":"0.6.2",
- "description":"A lean and mean http router",
+ "version":"0.7.0",
+ "description":"Simple http router forked from npm@router",
  "keywords":["connect","middleware","router","route","http"],
- "repository": {"type": "git", "url": "git://github.com/gett/router.git"},
+ "repository": {"type": "git", "url": "git://github.com/remy/router.git"},
+ "scripts": {
+   "test": "node tests/index.js"
+ },
  "contributors": [
+ "Remy Sharp <remy@remysharp.com>",
   "Mathias Buus Madsen <m@ge.tt>",
   "Ian Jorgensen <i@ge.tt"
- ],
- "dependencies": {}
+ ]
 }
