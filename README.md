@@ -1,9 +1,11 @@
 # Router
 
+A fork (with tweaks) of [gett/router](https://github.com/gett/router).
+
 A lean and mean http router for [node.js](http://nodejs.org).  
 It is available through npm:
 
-	npm install router
+	npm install router-stupid
 	
 ## Usage
 
@@ -11,7 +13,7 @@ Router does one thing and one thing only - route http requests.
 
 ``` js
 var http = require('http');
-var router = require('router');
+var router = require('router-stupid');
 var route = router();
 
 route.get('/', function(req, res) {
